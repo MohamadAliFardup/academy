@@ -35,11 +35,11 @@ The app will be available at: [http://localhost:3000](http://localhost:3000)
 
 | Page              | Link                                                                           | Status        |
 | ----------------- | ------------------------------------------------------------------------------ | ------------- |
-|Login| [http://localhost:3000/login](http://localhost:3000/login)                     |✅|
-|Register| [http://localhost:3000/register](http://localhost:3000/register)               |✅|
-|Forgot Password| [http://localhost:3000/forgot-password](http://localhost:3000/forgot-password) |⚠️|
-|Dashboard| [http://localhost:3000/dashboard](http://localhost:3000/dashboard)             |🔜|
-|Lesson View| [http://localhost:3000/learn/1](http://localhost:3000/learn/1)                 |🔜|
+|Login| [http://localhost:3000/login](http://localhost:3000/login)                     |[]|
+|Register| [http://localhost:3000/register](http://localhost:3000/register)               |[]|
+|Forgot Password| [http://localhost:3000/forgot-password](http://localhost:3000/forgot-password) |[]|
+|Dashboard| [http://localhost:3000/dashboard](http://localhost:3000/dashboard)             |[]|
+|Lesson View| [http://localhost:3000/learn/1](http://localhost:3000/learn/1)                 |[]|
 
 ---
 
@@ -56,14 +56,6 @@ src/
 ├── types/              # TypeScript shared types
 └── utils/              # Utility functions
 ```
-
----
-
-## 👨‍💻 Developer
-
-| Name      | Role                                     |
-| --------- | ---------------------------------------- |
-| Your Name | Frontend Developer (UI/UX, Architecture) |
 
 ---
 
