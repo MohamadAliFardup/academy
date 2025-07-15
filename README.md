@@ -1,43 +1,24 @@
-# 🚀 Coding Platform Frontend
+# Frontend
 
 ---
 
 ## 🧱 Tech Stack
 
-- ⚛️ **Next.js 14** (App Router, SSR)
-- 📘 **TypeScript**
-- 🎨 **TailwindCSS**
-- 🧠 **Redux Toolkit** (with RTK Query)
-- 🔐 **NextAuth** (JWT strategy)
-- 📦 **Material UI (MUI)**
-
----
-
-## 🛠 Getting Started
-
-```bash
-npx create-next-app@latest app-name --ts --app
-```
-
-Recommended options:
-
-- Tailwind ✅
-- ESLint ✅
-- Prettier ✅
-- src/ ✅
-- App Router ✅
-- Alias `@/*` ✅
-
----
+- **Next.js 14** (App Router, SSR)
+- **TypeScript**
+- **TailwindCSS**
+- **Redux Toolkit** (with RTK Query)
+- **NextAuth** (JWT strategy)
+- **Material UI (MUI)**
 
 ## 📦 Installation
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/kingramx/IranianAcademy/your-repo-name.git
 
 # 2. Navigate into the project
-cd your-repo-name
+cd frontend
 
 # 3. Install dependencies
 npm install
@@ -54,11 +35,11 @@ The app will be available at: [http://localhost:3000](http://localhost:3000)
 
 | Page              | Link                                                                           | Status        |
 | ----------------- | ------------------------------------------------------------------------------ | ------------- |
-| 🔐 Login           | [http://localhost:3000/login](http://localhost:3000/login)                     | ✅ Implemented |
-| 📝 Register        | [http://localhost:3000/register](http://localhost:3000/register)               | ✅ Implemented |
-| 🔁 Forgot Password | [http://localhost:3000/forgot-password](http://localhost:3000/forgot-password) | ⚠️ In Progress |
-| 🧩 Dashboard       | [http://localhost:3000/dashboard](http://localhost:3000/dashboard)             | 🔜 Planned     |
-| 📘 Lesson View     | [http://localhost:3000/learn/1](http://localhost:3000/learn/1)                 | 🔜 Planned     |
+|Login| [http://localhost:3000/login](http://localhost:3000/login)                     |✅|
+|Register| [http://localhost:3000/register](http://localhost:3000/register)               |✅|
+|Forgot Password| [http://localhost:3000/forgot-password](http://localhost:3000/forgot-password) |⚠️|
+|Dashboard| [http://localhost:3000/dashboard](http://localhost:3000/dashboard)             |🔜|
+|Lesson View| [http://localhost:3000/learn/1](http://localhost:3000/learn/1)                 |🔜|
 
 ---
 
