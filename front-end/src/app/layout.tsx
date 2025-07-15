@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { ThemeProviderWrapper } from './../theme/ThemeProviderWrapper';
-
-
-
+import { AppProviders } from "@/providers/AppProviders";
 
 export const metadata: Metadata = {
   title: "IranianAcademy",
@@ -12,15 +9,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="fa" dir="rtl">
       <body>
-        <ThemeProviderWrapper>
+        <AppProviders>
           {children}
-        </ThemeProviderWrapper>
+        </AppProviders>
       </body>
     </html>
   );
