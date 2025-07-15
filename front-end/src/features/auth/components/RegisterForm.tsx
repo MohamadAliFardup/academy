@@ -33,7 +33,7 @@ export default function RegisterForm() {
                 ثبت‌نام
             </h1>
 
-            {/* نام */}
+
             <div className="mb-4">
                 <label htmlFor="name" className="mb-1 block text-sm text-gray-700">
                     نام
@@ -53,7 +53,7 @@ export default function RegisterForm() {
                 )}
             </div>
 
-            {/* ایمیل */}
+
             <div className="mb-4">
                 <label htmlFor="email" className="mb-1 block text-sm text-gray-700">
                     ایمیل
@@ -73,7 +73,6 @@ export default function RegisterForm() {
                 )}
             </div>
 
-            {/* رمز عبور */}
             <div className="mb-4">
                 <label htmlFor="password" className="mb-1 block text-sm text-gray-700">
                     رمز عبور
@@ -93,7 +92,7 @@ export default function RegisterForm() {
                 )}
             </div>
 
-            {/* تکرار رمز عبور */}
+
             <div className="mb-4">
                 <label htmlFor="confirmPassword" className="mb-1 block text-sm text-gray-700">
                     تکرار رمز عبور
@@ -113,14 +112,13 @@ export default function RegisterForm() {
                 )}
             </div>
 
-            {/* خطای کلی */}
             {errors.root && (
                 <div className="mb-4 text-center text-sm text-red-600">
                     {errors.root.message}
                 </div>
             )}
 
-            {/* دکمه ثبت‌نام */}
+
             <button
                 type="submit"
                 disabled={isSubmitting}
