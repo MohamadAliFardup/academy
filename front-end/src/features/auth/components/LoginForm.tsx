@@ -26,7 +26,7 @@ export default function LoginForm() {
     return (
         <form
             onSubmit={handleSubmit(onSubmit)}
-            className="mx-auto mt-10 w-full max-w-xs sm:max-w-sm md:max-w-md"
+            className="mx-auto font-[B Nazanin] mt-10 w-full max-w-xs sm:max-w-sm md:max-w-md"
             noValidate
         >
             <h1 className="mb-6 text-center text-2xl font-bold text-gray-800">
