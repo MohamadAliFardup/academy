@@ -1,20 +1,5 @@
 @import "tailwindcss";
 
-
-@layer base {
-
-    html {
-        font-family: 'Vazirmatn', sans-serif;
-        direction: rtl;
-    }
-
-    body {
-        background-color: #fff;
-        color: #111;
-    }
-}
-
-
 /* Vazirmatn */
 @font-face {
     font-family: 'Vazirmatn';
@@ -55,4 +40,28 @@
     font-weight: 700;
     font-style: normal;
     font-display: swap;
+}
+
+
+
+@layer base {
+    :root {
+        --color-bg: #F9FAFB;
+        --color-text: #111827;
+    }
+
+    .dark {
+        --color-bg: #0F172A;
+        --color-text: #F1F5F9;
+    }
+
+    html {
+        font-family: 'Vazirmatn', sans-serif;
+        direction: rtl;
+    }
+
+    body {
+        background-color: var(--color-bg);
+        color: var(--color-text);
+    }
 }
